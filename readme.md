@@ -11,7 +11,7 @@
 
 # 🌲️ Introdução
 
-O Hackathon acontecerá durante todos os dias do Aracomp (de 17 a 19 de outubro), iniciando na segunda-feira (17) com a apresentação e explicação do problema proposto. Durante a terça-feira (18), e na quarta-feira (19) pela manhã ocorrerá a competição propriamente dita. Na quarta durante à tarde, juntamente com o encerramento do Aracomp, será divulgada a equipe vencedora da competição e serão entregues as premiações.
+O Hackathon acontecerá durante todos os dias do Aracomp (de 17 a 19 de outubro), iniciando na segunda-feira (17) com a apresentação e explicação do problema proposto. Durante a terça-feira (18), e na quarta-feira (19) pela manhã ocorrerá a competição propriamente dita. Na quarta durante à tarde, juntamente com o encerramento do Aracomp, será divulgada a equipe vencedora da competição e serão entregues as premiações
 
 ## 🤔️ O que é um Hackathon?
 O termo Hackathon vem da junção de dois termos em inglês: “hack” (programar de forma excepcional) e “marathon” (maratona). Segundo o site Hackathon Brasil: “é um evento que reúne programadores, designers e outros profissionais ligados ao desenvolvimento de software para uma maratona de programação, cujo objetivo é desenvolver um software ou solução tecnológica que atenda a um fim específico.”
