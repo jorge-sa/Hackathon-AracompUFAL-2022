@@ -3,7 +3,7 @@
 # Tema:
 
 <aside>
-♻️ Sustentabilidade
+♻️ Sustentabilidade.
 
 </aside>
 
