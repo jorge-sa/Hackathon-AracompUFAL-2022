@@ -3,7 +3,17 @@ import React, { useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import recicleBin from "./data/dados.json"
 import materials from "./data/materials.json"
-import { geoJSON } from 'leaflet';
+import { geoJSON, icon } from 'leaflet';
+import L from "leaflet"
+
+var markers = {
+  'plastico': new L.icon({iconUrl: require("./images/mark-red.png"), iconSize: [35,35]}),
+  'papel': new L.icon({iconUrl: require("./images/mark-blue.png"), iconSize: [35,35]}),
+  'metal': new L.icon({iconUrl: require("./images/mark-yellow.png"), iconSize: [35,35]}),
+  'vidro': new L.icon({iconUrl: require("./images/mark-green.png"), iconSize: [35,35]}),
+  'organico': new L.icon({iconUrl: require("./images/mark-brown.png"), iconSize: [35,35]}),
+  'bateria': new L.icon({iconUrl: require("./images/mark-orange.png"), iconSize: [35,35]})
+};
 
 
 function App() {
@@ -47,7 +57,8 @@ function App() {
 {recicleBin.map(bin=>( 
         <Marker 
         key = {bin.id}
-        position={[bin.gps.latitude, bin.gps.longitude]}>
+        position={[bin.gps.latitude, bin.gps.longitude]}
+        icon={markers[bin.tipo]}>
        </Marker>
       ))}
 
