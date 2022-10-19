@@ -1,22 +1,82 @@
 [
-    
     {
-    "name" : "Recicle Bin",
-    "gps" :
+        "id": 0,
+        "tipo": "plastico",
+        "gps": {
+            "latitude": -9.698759,
+            "longitude": -36.687831
+        }
+    },
     {
-    "latitude" : -9.701227590683887,
-    "longitude" :  -36.68741186822117
+        "id": 1,
+        "tipo": "vidro",
+        "gps": {
+            "latitude": -9.701467,
+            "longitude": -36.688336
+        }
+    },
+    {
+        "id": 2,
+        "tipo": "papel",
+        "gps": {
+            "latitude": -9.701974,
+            "longitude": -36.688089
+        }
+    },
+    {
+        "id": 3,
+        "tipo": "metal",
+        "gps": {
+            "latitude": -9.701206,
+            "longitude": -36.687439
+        }
+    },
+    {
+        "id": 4,
+        "tipo": "plastico",
+        "gps": {
+            "latitude": -9.701249,
+            "longitude": -36.686884
+        }
+    },
+    {
+        "id": 5,
+        "tipo": "bateria",
+        "gps": {
+            "latitude": -9.700892,
+            "longitude": -36.687586
+        }
+    },
+    {
+        "id": 6,
+        "tipo": "plastico",
+        "gps": {
+            "latitude": -9.700362,
+            "longitude": -36.686723
+        }
+    },
+    {
+        "id": 7,
+        "tipo": "vidro",
+        "gps": {
+            "latitude": -9.700623,
+            "longitude": -36.686675
+        }
+    },
+    {
+        "id": 8,
+        "tipo": "organico",
+        "gps": {
+            "latitude": -9.698913,
+            "longitude": -36.688138
+        }
+    },
+    {
+        "id": 9,
+        "tipo": "papel",
+        "gps": {
+            "latitude": -9.701566,
+            "longitude": -36.687137
+        }
     }
-    }
-    ,
-    
-{
-    
-    "name" : "Recicle Bin",
-    "gps" :{
-    "latitude" : -9.701426,
-    "longitude" :-36.688151
-    }
-    }
-
 ]
