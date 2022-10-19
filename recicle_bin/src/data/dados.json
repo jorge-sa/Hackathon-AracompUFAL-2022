@@ -1,0 +1,82 @@
+[
+    {
+        "id": 0,
+        "tipo": "plastico",
+        "gps": {
+            "latitude": -9.698759,
+            "longitude": -36.687831
+        }
+    },
+    {
+        "id": 1,
+        "tipo": "vidro",
+        "gps": {
+            "latitude": -9.698759,
+            "longitude": -36.687831
+        }
+    },
+    {
+        "id": 2,
+        "tipo": "papel",
+        "gps": {
+            "latitude": -9.698759,
+            "longitude": -36.687831
+        }
+    },
+    {
+        "id": 3,
+        "tipo": "metal",
+        "gps": {
+            "latitude": -9.698759,
+            "longitude": -36.687831
+        }
+    },
+    {
+        "id": 4,
+        "tipo": "plastico",
+        "gps": {
+            "latitude": -9.698759,
+            "longitude": -36.687831
+        }
+    },
+    {
+        "id": 5,
+        "tipo": "bateria",
+        "gps": {
+            "latitude": -9.698759,
+            "longitude": -36.687831
+        }
+    },
+    {
+        "id": 6,
+        "tipo": "plastico",
+        "gps": {
+            "latitude": -9.698759,
+            "longitude": -36.687831
+        }
+    },
+    {
+        "id": 7,
+        "tipo": "vidro",
+        "gps": {
+            "latitude": -9.698759,
+            "longitude": -36.687831
+        }
+    },
+    {
+        "id": 8,
+        "tipo": "organico",
+        "gps": {
+            "latitude": -9.698759,
+            "longitude": -36.687831
+        }
+    },
+    {
+        "id": 9,
+        "tipo": "papel",
+        "gps": {
+            "latitude": -9.698759,
+            "longitude": -36.687831
+        }
+    }
+]

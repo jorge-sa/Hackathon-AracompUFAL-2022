@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -17,7 +21,7 @@
   align-self: auto;
   margin-right: auto;
   margin-left: auto;
-  background-color: cornflowerblue;
+  background-color: white;
 }
 #mapTitle
 {
@@ -52,11 +56,4 @@ main
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
