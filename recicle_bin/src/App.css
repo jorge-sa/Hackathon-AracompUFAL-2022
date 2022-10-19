@@ -9,10 +9,33 @@
 .leaflet-container {
   width: 50vw;
   height: 50vh;
-  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#mat
+{
+  align-self: auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: cornflowerblue;
+}
+#mapTitle
+{
+  color: white;
+  font-style: italic;
+  margin-left: 70px;
+  margin-right: auto;
 }
 main
-{}
+{ 
+  background-color: yellowgreen;
+  width: 60vw;
+  height: 100vh;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 .App-header {
   background-color: #282c34;

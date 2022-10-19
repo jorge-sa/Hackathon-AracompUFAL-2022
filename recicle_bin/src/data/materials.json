@@ -1,0 +1,25 @@
+[{
+    "key": 0,
+    "name" : "Lapis",
+    "type" : "Madeira"
+},
+{
+    "key": 1,
+    "name" : "Caneta",
+    "type" : "Plastico"
+},
+{
+    "key": 2,
+    "name" : "Caderno",
+    "type" : "Papel e Papelão"
+},
+{
+    "key": 3,
+    "name" : "Caixa de Sapato",
+    "type" : "Papel e Papelão"
+},
+{
+    "key": 4,
+    "name" : "Teclado",
+    "type" : "Plastico"
+}]
