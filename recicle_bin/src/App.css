@@ -15,8 +15,11 @@
   height: 50vh;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
 }
-
+.Logo {
+  background-image: url(./images/logo.png);
+}
 #mat
 {
   align-self: auto;
