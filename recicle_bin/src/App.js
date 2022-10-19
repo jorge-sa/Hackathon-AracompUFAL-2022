@@ -30,11 +30,13 @@ function App() {
     <div class ='space-y-10 grid justify-items-stretch'>
     
     <select class  ='font-normal  justify-self-center text-2xl h-13 w-50 rounded'  value ={selects} onChange={e=>setSelects(e.target.value)}>
-    <option value="Lapis">Lapis</option>
-    <option value="Caneta">Caneta</option>
-    <option value="Caderno">Caderno</option>
-    <option value="Caixa de Sapato">Caixa de Sapato</option>
-    <option value="Teclado">Teclado</option>
+    <option value="geral">Geral</option>
+    <option value="bateria">Pilha</option>
+    <option value="plastico">Caneta</option>
+    <option value="papel">Caderno</option>
+    <option value="papel">Caixa de Sapato</option>
+    <option value="organico">Casca de Banana</option>
+    <option value="vidro">51</option>
     </select>
     
     <h1 class='text-center  text-white italic font-bold text-4xl h-13 w-50 rounded'>Tipo de Lixeira para o material:</h1>     
@@ -43,6 +45,7 @@ function App() {
         return <div id ="mat">
         <h1>{mat.type}</h1>
         </div>
+     
       }  
       })
     }</h1>
@@ -56,13 +59,27 @@ function App() {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
 {
-recicleBin.map(bin=>( 
-        <Marker 
-        key = {bin.id}
-        position={[bin.gps.latitude, bin.gps.longitude]}
-        icon={markers[bin.tipo]}>
-       </Marker>
-      ))}
+recicleBin.map(bin=>
+  
+  {
+    if (bin.tipo === selects) {
+      return<Marker 
+      key = {bin.id}
+      position={[bin.gps.latitude, bin.gps.longitude]}
+      icon={markers[bin.tipo]}>
+     </Marker>
+    }
+    if(selects === 'geral')
+    {
+      return<Marker 
+      key = {bin.id}
+      position={[bin.gps.latitude, bin.gps.longitude]}
+      icon={markers[bin.tipo]}>
+     </Marker>
+    }
+  }
+        
+      )}
 
       
 
