@@ -16,7 +16,6 @@ var markers = {
   'bateria': new L.icon({ iconUrl: require("./images/mark-orange.png"), iconSize: [35, 35] })
 };
 
-
 function App() {
   const [selects, setSelects] = useState();
   { materials.find(mat => (selects === mat.name)) }
