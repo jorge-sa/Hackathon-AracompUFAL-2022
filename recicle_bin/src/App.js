@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from "react";
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker} from 'react-leaflet';
 import recicleBin from "./data/recicle-bin.json"
 import materials from "./data/materials.json"
 import { geoJSON, icon } from 'leaflet';
